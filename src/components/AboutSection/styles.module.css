@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.aboutDiv {
+    display: flex;
+    margin-top: 90px;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutTitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffff;
+    margin: 0;
+}
+
+.aboutText {
+    margin-left: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 70%;
+    margin: 0;
+    line-height: 30px;
+}
+@media(max-width:880px){
+    .aboutText{
+        min-width: 100%;
+        margin-top: 25px;
+    }
+}

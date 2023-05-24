@@ -1,0 +1,11 @@
+.listNav {
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+    height: 17px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+

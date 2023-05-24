@@ -1,0 +1,26 @@
+.buttonHeader {
+    background-color: rgba(104, 128, 255, 1);
+    color: white;
+    width: 114px;
+    height: 39px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+
+.buttonBanner {
+    background-color: rgba(104, 128, 255, 1);
+    color: white;
+    width: 130px;
+    height: 39px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 37px;
+    border: none;
+    cursor: pointer;
+}
+

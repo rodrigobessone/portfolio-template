@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.bannerSection {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divBanner {
+
+}
+
+.spanBanner {
+    color: #6880FF;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleBanner {
+    color:#FFFFFF;
+    font-size: 47px;
+    font-weight: 800;
+    width: 320px;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.textBanner {
+    margin-top: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+.imageBanner {
+    height: 265px;
+}
+
+@media (max-width:880px) {
+    .bannerSection {
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    }
+
+    .imageBanner {
+        max-width: max-content;
+        max-height: max-content;
+        margin-top: 63px;
+        max-height: 189px;
+
+    }
+
+    .titleBanner {
+        width: 100%;
+    }
+
+    .divBanner {
+        margin-top: 39px;
+    }
+}

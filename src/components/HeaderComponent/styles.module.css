@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+    height: 40px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.headerContainer img {
+    width: 70px;
+    height: 14px;
+}
+
+@media (max-width:880px) {
+    .headerContainer {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1.6875rem;
+    }
+    .headerContainer button{
+        min-height: 39px;
+    }
+}
