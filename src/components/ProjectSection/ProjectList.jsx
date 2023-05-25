@@ -2,6 +2,12 @@ import React from 'react'
 import styles from "./styles.module.css"
 import gitIcon from "../../assets/git-icon.png"
 
+
+// O componente ProjectList recebe uma propriedade props, que contém uma lista de projetos. Ele renderiza uma lista não ordenada (ul)
+// onde cada item é mapeado a partir da lista de projetos. Cada item da lista é exibido como um elemento li, contendo informações 
+// sobre o projeto, como o nome, uma imagem e uma descrição. Além disso, há um link para saber mais sobre o projeto. O componente 
+// é responsável por exibir a lista de projetos de forma estruturada e estilizada.
+
 function ProjectList({ props }) {
     return (
         <ul className={styles.projectList}>

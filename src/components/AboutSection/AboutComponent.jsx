@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from "./styles.module.css"
 
+// Este código define um componente funcional chamado AboutComponent que renderiza um trecho de informações sobre o autor ou criador. 
+// O componente retorna um elemento div contendo um título, um parágrafo de texto e utiliza estilos CSS através de classes definidas 
+// em um arquivo de estilos externo.
+
 function AboutComponent() {
     return (
         <div className={styles.aboutDiv}>

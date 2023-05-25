@@ -1,6 +1,11 @@
 import React from 'react'
 import styles from "./styles.module.css"
 
+// O componente TechList recebe uma prop chamada props que contém uma lista de tecnologias. Ele renderiza uma lista não ordenada (ul)
+// com cada tecnologia representada por um item de lista (li). Cada item contém uma imagem representando o ícone da tecnologia e um 
+// nome correspondente. O componente percorre a lista de tecnologias usando map e gera dinamicamente os itens da lista com base nos 
+// dados fornecidos.
+
 function TechList({ props }) {
     return (
         <ul className={styles.techList}>
