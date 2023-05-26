@@ -1,25 +1,37 @@
-# Projeto de Portfólio
+## Portfólio
 
-Neste projeto, você irá criar um Portfólio seguindo um layout fornecido no Figma. O objetivo é praticar estilização e componentização, utilizando os componentes sugeridos: Button, List (TechList e ProjectsList), Card (TechCard e ProjectCard), Section (BannerSection, AboutMeSection, TechSection, ProjectsSection), Header e Footer.
+Bem-vindo ao meu portfólio, uma aplicação web desenvolvida em React. Aqui você encontrará informações sobre mim e meus projetos públicos do GitHub.
 
-## Instruções
+### Funcionalidades
 
-1. Acesse o repositório fornecido e crie um novo repositório a partir do template original, definindo a Kenzie como proprietária.
+- Exibição dos projetos públicos do GitHub
+- Exibição das tecnologias utilizadas
 
-2. Clone o novo repositório criado e abra o terminal na raiz do projeto.
+### Tecnologias Utilizadas
 
-3. Execute o comando `npm install` para instalar as dependências necessárias.
+- React
+- CSS Modules
+- Axios
 
-4. Abra o código no VSCode e crie os componentes conforme sugerido.
+### Instalação
 
-5. Estilize a aplicação de acordo com o layout fornecido no Figma.
+Siga as instruções abaixo para configurar o projeto em seu ambiente local:
 
-6. Utilize as imagens presentes na pasta `src/assets` para compor a aplicação.
+1. Clone este repositório: `git clone <URL_DO_REPOSITORIO>`
+2. Acesse o diretório do projeto: `cd portfolio`
+3. Instale as dependências: `npm install`
 
-7. Na pasta `src/data`, há arquivos com variáveis para renderizar as informações necessárias. Importe essas variáveis nos arquivos correspondentes aos componentes desejados e utilize-as.
+### Uso
 
-8. Ao finalizar a implementação e estilização, faça o commit e push do código para o seu repositório.
+Após a instalação, você pode iniciar o projeto localmente:
 
-## Considerações Finais
+1. Inicie o servidor de desenvolvimento: `npm start`
+2. Acesse a aplicação no navegador: [http://localhost:3000](http://localhost:3000)
 
-Este projeto tem como objetivo a criação de um Portfólio com base em um layout pré-definido. A aplicação utiliza componentes como Button, List, Card, Section, Header e Footer, e requer a estilização de acordo com o Figma fornecido. As imagens necessárias estão disponíveis na pasta `src/assets` e as informações podem ser obtidas nos arquivos presentes em `src/data`. Agradeçemos pela sua dedicação e desejamos sucesso na criação do Portfólio!
+### Vercel
+
+Confira a versão online do meu portfólio hospedado na Vercel: [https://m3-s1-entrega-portfolio-template-lucas-beleboni.vercel.app/](https://m3-s1-entrega-portfolio-template-lucas-beleboni.vercel.app/)
+
+### Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
