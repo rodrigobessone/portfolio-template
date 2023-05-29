@@ -30,7 +30,7 @@ Após a instalação, você pode iniciar o projeto localmente:
 
 ### Vercel
 
-Confira a versão online do meu portfólio hospedado na Vercel: [https://m3-s1-entrega-portfolio-template-lucas-beleboni.vercel.app/](https://m3-s1-entrega-portfolio-template-lucas-beleboni.vercel.app/)
+Confira a versão online do meu portfólio hospedado na Vercel: https://portfolio-template-blond-iota.vercel.app/
 
 ### Contribuição
 
